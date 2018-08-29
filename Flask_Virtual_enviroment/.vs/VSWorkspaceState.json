@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Flaskvenv",
+    "\\myapp",
+    "\\myapp\\static",
+    "\\myapp\\static\\assets\\bootstrap",
+    "\\myapp\\templates"
+  ],
+  "SelectedNode": "\\myapp\\test.py",
+  "PreviewInSolutionExplorer": false
+}

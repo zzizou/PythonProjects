@@ -1,0 +1,103 @@
+<html>
+    <head>
+		<title>Selenium App</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+
+    </head>
+    <body>
+
+     <div class="container" style="    border: 3px solid black;">
+         <div id="middiv" style=" margin: auto;width: 40%;">
+
+      <form class="form-signin" method="post" action="{{ url_for('/') }}"> <!-- http://localhost:5000/show-->
+        <h2 class="form-signin-heading" style="margin-bottom:5px;">WebDriver Editor</h2>
+        <label  >Unique Driver Name</label>
+        <input style="width:300px;margin-top:10px;margin-bottom:10px;" type="text" name="drivername" class="form-control" placeholder="Unique Driver Name" required autofocus>
+        <label>Research Link : </label>
+          <input style="width:300px;margin-top:5px;" type="text" name="researchlink" class="form-control" placeholder="Search Url" required>
+           <label>Research Text : </label>
+          <input style="width:300px;margin-top:5px;" type="text" name="researchtext" class="form-control" placeholder="Search text" required>
+
+
+        <button class="btn btn-lg btn-primary btn-block" name="create" style="margin-top:20px;width:100px;" type="submit" value="submit" >Create</button>
+
+      </form>
+             </div>
+
+    </div> <!-- /container -->
+
+
+       <div class="contain" style="    border: 3px solid black;">
+           <h2>Web Driver Table</h2>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Link</th>
+        <th>Text</th>
+          <th>Options</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for i in range(namelst|length) %}
+
+
+
+      <tr>
+        <td>{{ namelst[i] }}</td>
+        <td>{{ linklst[i] }}</td>
+        <td>{{ textlst[i] }}</td>
+
+
+
+
+                   <form method="post" action="{{url_for('editpage')}}"> <th><input class="btn btn-lg btn-primary " name="{{namelst[i]}}" type="submit"  value="Edit"></input></th></form>
+         <form method="post" action="{{url_for('save_one')}}"> <th><input class="btn btn-lg btn-primary " name="{{namelst[i]}}" type="submit"  value="Save"></input></th></form>
+          <form method="post" action="{{url_for('delete_browser')}}"><th><input class="btn btn-lg btn-primary " name="{{namelst[i]}}" type="submit"  value="Close"></input></th></form>
+
+
+
+
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+           <div id="botdiv" style=" margin: auto;width: 40%;">
+
+                    <div id="upbox">
+                       <form method="post" action="{{ url_for('/') }}"> <div id="but1">
+                           <input class="btn btn-lg btn-primary " name="runall" type="submit" style="margin-top:20px;width:100px;" value="Run All"></input></div>
+                       </form>
+        <div id="but2">
+            <form method="post" action="{{url_for('/')}}">
+            <input class="btn btn-lg btn-primary" name="saveall" type="submit" style="margin-top:20px;width:110px;margin-bottom:20px;"  value="Save All" ></input>
+        </form>
+        </div>
+                        <div id="but3">
+            <form method="post" action="{{url_for('/')}}">
+            <input class="btn btn-lg btn-primary" name="check" type="submit" style="margin-top:20px;width:110px;margin-bottom:20px;"  value="Check" ></input>
+        </form>
+        </div>
+
+</div>
+
+             </div>
+
+    </div> <!-- /container -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
