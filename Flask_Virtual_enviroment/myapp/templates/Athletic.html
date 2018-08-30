@@ -4,34 +4,21 @@
 {% block body %}
 
 {% include 'navbar.html' %}
-            <div>
-                    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color:#353635;">
-                        <div class="container"><a href="#" class="navbar-brand" style="background-color:#353635;color:rgba(13,237,143,0.9);">The Football Show</a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                            <div
-                                class="collapse navbar-collapse" id="navcol-1">
-                                <ul class="nav navbar-nav mr-auto">
 
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link" style="background-color:transparent;color:rgb(254,254,254);">Clubs Profile</a></li>
-                                    <li role="presentation" class="nav-item"><a href="{{url_for('atletico')}}" class="nav-link" style="color:rgb(254,254,254);">Real Madrid</a></li>
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link" style="color:rgb(254,254,254);">Predictions</a></li>
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link active" style="color:rgb(254,254,254);">Rankings</a></li>
-                </div>
-                </nav>
-                </div>
         <div  class="container">
 
                 <div class="card">
-                        <div class="card-header " style="background-color:rgba(194,0,140,0.9);">
-                            <h3 class="text-center" style="color: white;">Atletico de Madrid</h3>
+                        <div class="card-header bg-primary" >
+                            <h3 class="text-center" style="color: white;">Athletic Club</h3>
                         </div>
 
-                            <img class="card-img-top" width="100%" height="400" src="static\assets\img\campnou.jpg" alt="Real Madrid ">
+                            <img class="card-img-top" width="100%" height="400" src="static\assets\img\athletic.png" alt="Athletic Club ">
                             <div class="card-body">
 
                                      <p class="text-center card-text">
-                                         <span> Stadium: Wanda Metropolitan </span></p>
+                                         <span> Stadium: San Mamés Stadium </span></p>
                                     <p class="text-center card-text"> <span>
-                                        Follow Atletico on: </span>
+                                        Follow Athletic on: </span>
                                         <a href="https://www.facebook.com/fcbarcelona">
                                             <i class="fa fa-facebook-square"></i>
                                         </a>
@@ -194,6 +181,9 @@
 			<embed type="image/svg+xml" src={{graph_data_12|safe}} />
 	  </div>
                 </div>
+                    <div class="offset-sm-1 col-sm-5">
+                    <a class="twitter-timeline" data-width="450" data-height="450" data-link-color="#E81C4F" href="https://twitter.com/Athletic_en?ref_src=twsrc%5Etfw">Tweets by Athletic_en</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
             </div>
                 </div>
 
