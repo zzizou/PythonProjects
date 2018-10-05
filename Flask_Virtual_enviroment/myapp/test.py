@@ -1,8 +1,11 @@
 from flask import Flask, render_template
+from flask_wtf import FlaskForm
 import pandas as pd
+from wtforms import SelectField, StringField
+
 from graph import plotting, plotting_2
 app = Flask(__name__)
-
+app.config['SECRET_KEY'] = 'OurSecretkey'
 
 @app.route('/')
 def index():
@@ -11,6 +14,10 @@ def index():
 @app.route('/prediction' , methods=['GET'])
 def prediction():
     return render_template('prediction.html')
+
+@app.route('/admin' , methods=['GET'])
+def admin():
+    return render_template('admin.html')
 
 @app.route('/navbar', methods=['GET'])
 def navbar():
@@ -1693,7 +1700,6 @@ def getafe():
                               homePossession / count,
                               100 - (homePossession / count))
     # graph_data_6 =plotting_2('Total goals Scored and concede ','Total Goals Scored','Total Goals Concede',totalGoals,totalConcede)
-
     graph_data_7 = plotting_2('Total Possession ', 'Home Possesion', 'Away Possession',
                               (homePossession + awayPossession) / (count * 2),
                               100 - ((homePossession + awayPossession) / (count * 2)))
@@ -1709,10 +1715,17 @@ def getafe():
                            graph_data_5=graph_data_5, graph_data_6=graph_data_6, graph_data_7=graph_data_7,
                            graph_data_8=graph_data_8, graph_data_9=graph_data_9, graph_data_10=graph_data_10,
                            graph_data_11=graph_data_11, graph_data_12=graph_data_12)
-
 @app.route('/club', methods=['GET'])
 def club():
     return render_template('club.html')
+
+
+
+
+@app.route('/compareteams', methods = ['GET'])
+def compareteams():
+
+    return render_template('compare.html')
 
 if __name__ == "__main__":
     app.run(debug=True)
