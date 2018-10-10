@@ -3,9 +3,10 @@ from flask_wtf import FlaskForm
 import pandas as pd
 from wtforms import SelectField, StringField
 
-from graph import plotting, plotting_2
+from graph import plotting, plotting_2, plotting3, draws, goals
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'OurSecretkey'
+
 
 @app.route('/')
 def index():
@@ -194,8 +195,8 @@ def barcapage():
     # graph_data_6 =plotting_2('Total goals Scored and concede ','Total Goals Scored','Total Goals Concede',totalGoals,totalConcede)
 
     graph_data_7=plotting_2('Total Possession ','Home Possesion','Away Possession',(homePossession+awayPossession)/(count*2),100-((homePossession+awayPossession)/(count*2)))
-    graph_data_8 =plotting_2('Fouls in home venue ','Home Fouls','Away Fouls',homeFoulshome,awayFoulshome)
-    graph_data_9 =plotting_2('Fouls in away venue ','Home Fouls','Away Fouls',homeFoulsaway,awayFoulsaway)
+    graph_data_8 = plotting_2('Fouls in home venue ','Home Fouls','Away Fouls',homeFoulshome,awayFoulshome)
+    graph_data_9 = plotting_2('Fouls in away venue ','Home Fouls','Away Fouls',homeFoulsaway,awayFoulsaway)
     graph_data_10 =plotting_2('Total Fouls ', 'Home Fouls', 'Away Fouls', totalFoulsHome, totalFoulsAway)
     graph_data_11 =plotting_2('Offsides  in home venue ', 'homeOffsides', 'awayOffsides', homeOffsides, awayOffsides)
     graph_data_12 =plotting_2('Offsides  in away venue ', 'homeOffsides', 'awayOffsides', AawayOffsides, AhomeOffsides)
@@ -1719,13 +1720,59 @@ def getafe():
 def club():
     return render_template('club.html')
 
-
-
-
 @app.route('/compareteams', methods = ['GET'])
 def compareteams():
+    laliga = pd.read_csv('F:\\Python Projects\\Flask_Virtual_enviroment\\Talha_app\\FootballEurope.csv')
 
-    return render_template('compare.html')
+    laliga['winner'] = laliga.apply(
+        lambda row: 1 if row['homeGoalFT'] > row['awayGoalFT'] else 2 if row['homeGoalFT'] < row['awayGoalFT'] else 0,
+        axis=1)
+    laliga = laliga[laliga.division == 'La_Liga']
+    laliga['local_team_won'] = laliga.apply(lambda row: 1 if row['homeGoalFT'] > row['awayGoalFT'] else 0, axis=1)
+    laliga['visitor_team_won'] = laliga.apply(lambda row: 1 if row['homeGoalFT'] < row['awayGoalFT'] else 0, axis=1)
+    laliga['draw'] = laliga.apply(lambda row: 1 if row['homeGoalFT'] == row['awayGoalFT'] else 0, axis=1)
+    ElClassico = laliga
+    Barcelona = ElClassico[((ElClassico.homeTeam == 'Barcelona') | (ElClassico.awayTeam == 'Barcelona'))]
+    Madrid = ElClassico[((ElClassico.homeTeam == 'Real Madrid') | (ElClassico.awayTeam == 'Real Madrid'))]
+    BarcaHome = Barcelona[Barcelona.homeTeam == 'Barcelona']
+    BarcaAway = Barcelona[Barcelona.awayTeam == 'Barcelona']
+    MadridHome = Madrid[Madrid.homeTeam == 'Real Madrid']
+    MadridAway = Madrid[Madrid.awayTeam == 'Real Madrid']
+
+    # In[4]:
+
+    BarcaWins = BarcaHome['local_team_won'].sum() + BarcaAway['visitor_team_won'].sum()
+    BarcaLooses = BarcaAway['local_team_won'].sum() + BarcaHome['visitor_team_won'].sum()
+    MadridWins = MadridHome['local_team_won'].sum() + MadridAway['visitor_team_won'].sum()
+    MadridLooses = MadridAway['local_team_won'].sum() + MadridHome['visitor_team_won'].sum()
+    barcahomeGoals = BarcaHome['homeGoalFT'].sum()
+    barcaawaygoals = BarcaAway['awayGoalFT'].sum()
+    madridhomeGoals = MadridHome['homeGoalFT'].sum()
+    madridawaygoals = MadridAway['awayGoalFT'].sum()
+
+    barcaPossesion =  (BarcaAway['homePossessionFT'].sum()/len(laliga)*100) + (BarcaAway['awayPossessionFT'].sum()/len(laliga)*100)
+    madridpossesion = (MadridHome['homePossessionFT'].sum()/len(laliga)*100 )+ (MadridAway['awayPossessionFT'].sum()/len(laliga)*100)
+
+
+
+    # MadridWins=MadridHome['local_team_won'].sum() + MadridAway['visitor_team_won'].sum()
+    BarcaDraws = Barcelona['draw'].sum()
+    MadridDraws = Madrid['draw'].sum()
+    print('Barcelona win = ', BarcaWins)
+    print('Barcelona looses = ', BarcaLooses)
+    print('BarcaDraws draws = ', BarcaDraws)
+    print('Madrid win = ', MadridWins)
+    print('Madrid looses = ', MadridLooses)
+    print('Madrid draws = ', MadridDraws)
+    graph_data = plotting3('Number of Wins', 'Barcelona', 'RealMadrid', BarcaWins, MadridWins)
+    graph_data1 = plotting3('Number of Loses', 'Barcelona', 'RealMadrid', BarcaLooses, MadridLooses)
+    graph_data2 = draws('Number of Draws', 'Barcelona', 'RealMadrid', BarcaDraws, MadridDraws)
+    graph_data_goals = goals('Number of Aways Goals' , 'Barcelona ' , 'RealMadrid' , barcaawaygoals , madridawaygoals)
+    graph_data_homegoals = plotting3('Number of Home Goals', 'Barcelona', 'RealMadrid', barcahomeGoals, madridhomeGoals)
+    possesion = goals('Possesion in Percentage %', 'Barcelona', 'RealMadrid', barcaPossesion, madridpossesion)
+
+    return render_template('compare.html', graph_data=graph_data, graph_data1=graph_data1, graph_data2=graph_data2 , graph_data_goals = graph_data_goals , graph_data_homegoals = graph_data_homegoals,possesion = possesion)
+
 
 if __name__ == "__main__":
     app.run(debug=True)

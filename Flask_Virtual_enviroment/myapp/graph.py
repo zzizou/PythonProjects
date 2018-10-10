@@ -1,24 +1,49 @@
 import pygal
 from pygal.style import Style
+
 custom_style = Style(
-legend_font_size =22.0,
-value_font_size =22.0,
-tooltip_font_size =22.0,
-major_label_font_size =22.0,
-label_font_sioze =22.0, plot_background='#f9f9f9',
-value_label_font_size =22.0,
-title_font_size =26.0,
+    legend_font_size=22.0,
+    value_font_size=22.0,
+    tooltip_font_size=22.0,
+    major_label_font_size=22.0,
+    label_font_sioze=22.0, plot_background='#f9f9f9',
+    value_label_font_size=22.0,
+    title_font_size=28.0,
     colors=('#0ba0e5', '#e8102d', '#df34f9'))
+
+
 # Input data files are available in the "../input/" directory.
 # For example, running this (by clicking run or pressing Shift+Enter) will list the files in the input directory
 
 def plotting(title, arg1, arg2, arg3, val1, val2, val3):
-
-    pie_chart = pygal.Pie(half_pie=True,  style=custom_style)
+    pie_chart = pygal.Pie(half_pie=True, style=custom_style)
     pie_chart.title = title
     pie_chart.add(arg1, val1)
     pie_chart.add(arg2, val2)
     pie_chart.add(arg3, val3)
+    return pie_chart.render_data_uri()
+
+
+def plotting3(title, arg1, arg2, val1, val2, ):
+    pie_chart = pygal.HorizontalBar(style=custom_style)
+    pie_chart.title = title
+    pie_chart.add(arg1, val1)
+    pie_chart.add(arg2, val2)
+    return pie_chart.render_data_uri()
+
+def draws(title, arg1, arg2, val1, val2, ):
+    pie_chart = pygal.Gauge(human_readable=True, style = custom_style)
+    pie_chart.title = title
+    pie_chart.range = [20, 30]
+    pie_chart.add(arg1, val1)
+    pie_chart.add(arg2, val2)
+    return pie_chart.render_data_uri()
+
+def goals(title, arg1 , arg2, val1, val2):
+    pie_chart = pygal.Pie(style=custom_style)
+    pie_chart.title = title
+    pie_chart.add(arg1, val1)
+    pie_chart.add(arg2, val2)
     return pie_chart.render_data_uri()
 
 
@@ -28,7 +53,6 @@ def plotting_2(title, arg1, arg2, val1, val2):
     pie_chart.add(arg1, val1)
     pie_chart.add(arg2, val2)
     return pie_chart.render_data_uri()
-
 
 # plotting('Wins, looses and Draws on home venue','Home Team','Away Team','Draws',cp,cp1,cp2)
 # plotting('Wins, looses and Draws on away venue','Home Team','Away Team','Draws',aw,al,ad)
