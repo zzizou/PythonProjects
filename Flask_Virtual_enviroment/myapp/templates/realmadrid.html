@@ -1,40 +1,4 @@
-<!--
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Real Madrid C.F</title>
-        <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="/static/assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="/static/assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="/static/assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="/static/assets/css/Footer-Dark.css">
-    <link rel="stylesheet" href="/static/assets/css/Header-Dark.css">
-    <link rel="stylesheet" href="/static/assets/css/styles.css">
 
-              <style>
-                  body{
-                    font-family: 'Roboto Slab', serif;
-
-                  }
-              </style>
-    </head>
-    <body>
-            <div>
-                    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button" style="background-color:#353635;">
-                        <div class="container"><a href="#" class="navbar-brand" style="background-color:#353635;color:rgba(13,237,143,0.9);">The Football Show</a><button data-toggle="collapse" data-target="#navcol-1" class="navbar-toggler"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                            <div
-                                class="collapse navbar-collapse" id="navcol-1">
-                                <ul class="nav navbar-nav mr-auto">
-
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link" style="background-color:transparent;color:rgb(254,254,254);">Clubs Profile</a></li>
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link" style="color:rgb(254,254,254);">Predictions</a></li>
-                                    <li role="presentation" class="nav-item"><a href="#" class="nav-link active" style="color:rgb(254,254,254);">Rankings</a></li>
-                </div>
-                </nav>
-                </div>   -->
     <title>Real Madrid - Analysis</title>
 
 {% extends 'navbar.html' %}
@@ -98,7 +62,8 @@
                      <div class="col-sm-6">
                 <div class=" card" >
                     <div  class="card-body" align="center">
-			<embed  type="image/svg+xml" src={{graph_data_1|safe}} />
+                            <a class="twitter-timeline" data-lang="en" data-width="450" data-height="450" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/realmadriden?ref_src=twsrc%5Etfw">Tweets by Realmadrid</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 	  </div>
                 </div>
                     </div>
@@ -113,7 +78,8 @@
                 <div class="col-sm-6 card" >
 
                     <div class="card-body" >
-			<embed type="image/svg+xml" src={{graph_data_2|safe}} />
+                            <embed  type="image/svg+xml" src={{graph_data_1|safe}} />
+
 	  </div>
                 </div>
 
@@ -226,9 +192,9 @@
 	  </div>
                 </div>
 
-                     <div class="offset-sm-1 col-sm-5">
+                     <div class="col-sm-6">
+                            <embed type="image/svg+xml" src={{graph_data_2|safe}} />
 
-                    <a class="twitter-timeline" data-lang="en" data-width="450" data-height="450" data-theme="light" data-link-color="#19CF86" href="https://twitter.com/realmadriden?ref_src=twsrc%5Etfw">Tweets by Realmadrid</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
                 </div>
             </div>

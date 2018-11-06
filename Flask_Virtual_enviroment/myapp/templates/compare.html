@@ -22,40 +22,41 @@
     <br>
     <div class="card card-header  row">
         <br>
-<form class="col-md-12 " action="">
-    <div class="row">
-<div class="form-group offset-md-1 col-md-4">
-      <label for="inputState">Choose your Team</label>
-      <select id="inputState" class="form-control">
-        <option selected>Realmadrid</option>
-        <option>Barcelona</option>
-          <option >Atletico de Madrid</option>
-        <option>Sevilla FC</option>
-          <option >Valencia CF</option>
-        <option>Athletic Club</option>
-          <option >Real Betis</option>
-        <option>Villareal FC</option>
-          <option>Getafe CF</option>
-
-      </select>
-    </div>
-
-        <div class="form-group offset-md-2 col-md-4">
-      <label for="inputState">Choose your Opponent</label>
-      <select id="inputState" class="form-control">
-        <option >Realmadrid</option>
-        <option selected>FC Barcelona</option>
-          <option >Atletico de Madrid</option>
-        <option>Sevilla FC</option>
-          <option >Valencia CF</option>
-        <option>Athletic Club</option>
-          <option >Real Betis</option>
-        <option>Villareal FC</option>
-          <option>Getafe CF</option>
-
-      </select>
-    </div>
-        </div>
+        <form class="col-md-12 " action= "http://localhost:5000/comp" method = "POST">
+          <div class="row">
+      <div class="form-group offset-md-1 col-md-4">
+            <label for="inputState">Choose your Team</label>
+            <select id="inputState" name = "TeamComp1" class="form-control">
+              <option value="Real Madrid" selected>Realmadrid</option>
+              <option value="Barcelona">Barcelona</option>
+                <option value="Atletico">Atletico de Madrid</option>
+              <option value="Sevilla">Sevilla FC</option>
+                <option value="Valencia">Valencia CF</option>
+              <option value="Athletic Club"> Athletic Club</option>
+                <option value="Real Betis">Real Betis</option>
+              <option value="Villarreal">Villareal FC</option>
+                <option value="Celta Vigo"> Celta Vigo</option>
+      
+            </select>
+          </div>
+      
+              <div class="form-group offset-md-2 col-md-4">
+            <label for="inputState">Choose your Opponent</label>
+            <select id="inputState"  name = "TeamComp2" class="form-control">
+              <option value="Real Madrid" >Realmadrid</option> 
+              <option value="Barcelona" selected>Barcelona</option>
+                <option value="Atletico">Atletico de Madrid</option>
+              <option value="Sevilla">Sevilla FC</option>
+                <option value="Valencia">Valencia CF</option>
+              <option value="Athletic Club"> Athletic Club</option>
+                <option value="Real Betis">Real Betis</option>
+              <option value="Villarreal">Villareal FC</option>
+                <option value="Celta Vigo"> Celta Vigo</option>
+      
+            </select>
+          </div>
+              </div>
+      
     <br> <br>
 
     <input  class="offset-sm-4 col-md-4 btn bt-lg btn-primary " type="submit" value="Compare">
@@ -113,7 +114,7 @@
 	  </div>
                 </div>
     </div>
-</div>
+</div> 
 
 <script src="/static/assets/bootstrap/js/bootstrap.min.js">
 </script>

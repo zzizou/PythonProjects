@@ -2,7 +2,7 @@
 {% extends 'testlayout.html' %}
 {% block body %}
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="{{url_for('index')}}" style="color:rgba(13,237,143,0.9);">The Football Show</a>
+  <a class="navbar-brand" href="{{url_for('index')}}" style="color:rgba(1, 231, 104, 0.74);">The Football Show</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -10,8 +10,8 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Clubs
+        <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Team Analysis
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="{{url_for('barcapage')}}">FC Barcelona</a>
@@ -23,11 +23,26 @@
                                   <a class="dropdown-item" href="{{url_for('betis')}}">Real Betis  </a>
                                     <a class="dropdown-item" href="{{url_for('villareal')}}">Villareal CF</a>
                                   <a class="dropdown-item" href="{{url_for('getafe')}}">Getafe CF  </a>
+                                  <a class="dropdown-item" href="{{url_for('compareteams')}}">Overall</a>
         </div>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Predictions </a>
+
+      <li class="nav-item dropdown">
+          <a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Team Comparison
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                  <a class="dropdown-item" href="{{url_for('compareteams')}}">Overall Comparison</a>
+                                  <a class="dropdown-item" href="{{url_for('head')}}">Head to Head</a>    
+          </div>
+        </li>
+  
+    
+
+      <li class="nav-item">
+        <a class="nav-link" href="{{url_for('prediction')}}">Predictions </a>
       </li>
+      
       <li class="nav-item">
         <a class="nav-link" href="#">Rankings</a>
       </li>

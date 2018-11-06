@@ -1,14 +1,16 @@
 {% extends 'testlayout.html' %}
 {% block body %}
  <div>
-       <div class="header-dark" style="background-image:url(&quot;static/assets/img/www.GetBg.net_Sport_Football_goal_036151_.jpg&quot;);">
+       <!-- <div class="header-dark" style="background-image:url(&quot;static/assets/img/www.GetBg.net_Sport_Football_goal_036151_.jpg&quot;);"> -->
+        <div class="header-dark" style="background-image: url(&quot;static/assets/img/main1.jpg&quot;);">
+
             <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
-                <div class="container"><a class="navbar-brand" href="#" style="color:rgba(13,237,143,0.9);">The Football Show</a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                <div class="container"><a class="navbar-brand" href="#" style="color:rgba(13,237,143,0.9);"> <strong>  The Football Show</strong> </a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navcol-1">
                         <ul class="nav navbar-nav">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                 <strong> Clubs </strong>
+                                 <strong> Team Analysis </strong>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                   <a class="dropdown-item" href="{{url_for('barcapage')}}">FC Barcelona</a>
@@ -49,9 +51,9 @@ Clubs
                       </div>
                 </section>
             </div>
-            <div class="col-md-4">
+          <!--  <div class="col-md-4">
                     <section>
-                        <div class="card text-center" style="height: 22rem; width: 22rem;">
+                        <div class="card text-center" style="height: 22rem;">
                             <div class="card-header bg-primary">
 Predictions
                             </div>
@@ -61,7 +63,22 @@ Predictions
                             </div>
                           </div>
                     </section>
+                </div>  -->
+
+                <div class="col-md-4">
+                    <section>
+                        <div class="card text-center" style="height: 22rem;">
+                            <div class="card-header bg-primary">
+    Predictions
+                            </div>
+                          <a href="{{url_for('club')}}">  <img style="height: 13rem;" class="card-img-top img-responsive" src="\static\assets\img\pred.jpg" alt="Predictions"></a>
+                            <div class="card-body">
+                                    <p class="card-text">Find out about your favourite club and player statistics and much more.</p>
+                            </div>
+                          </div>
+                    </section>
                 </div>
+
                 <div class="col-md-4">
                         <section>
 
