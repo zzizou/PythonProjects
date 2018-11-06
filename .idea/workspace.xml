@@ -1,186 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e885862e-eef8-4679-9808-db2e24a7127a" name="Default" comment="FINAL BEFORE JAMALA">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/DESCRIPTION.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/metadata.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/Flask_WTF-0.14.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/WTForms-2.2.1.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/WTForms-2.2.1.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/WTForms-2.2.1.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/WTForms-2.2.1.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/WTForms-2.2.1.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/csrf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/i18n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/recaptcha/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/recaptcha/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/recaptcha/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/flask_wtf/recaptcha/widgets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/csrf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/csrf/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/csrf/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/appengine/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/appengine/db.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/appengine/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/appengine/ndb.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/csrf/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/csrf/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/csrf/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/csrf/session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/dateutil/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/dateutil/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/i18n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/orm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/django/templatetags/wtforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/i18n/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/i18n/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/i18n/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/sqlalchemy/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/sqlalchemy/fields.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/ext/sqlalchemy/orm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/fields/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/fields/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/fields/html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/fields/simple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/form.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/i18n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ar/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/bg/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ca/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/cs_CZ/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/cy/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/de/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/de_CH/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/el/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/en/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/es/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/et/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fa/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fi/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/fr/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/he/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/hu/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/it/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ja/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ko/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/nb/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/nl/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/pl/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/pt/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/ru/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/sk/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/sv/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/tr/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/uk/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/wtforms.pot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/zh/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.mo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/locale/zh_TW/LC_MESSAGES/wtforms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/meta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/widgets/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/widgets/core.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/Lib/site-packages/wtforms/widgets/html5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/Procfile.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/athletic.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/athleticbilbao.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/atleticoteam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/250x250_04114918jasper-cillessen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/250x250_08142335vermaelen_2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/250x250_13114608a-ortol--.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/250x250_13115155ale----.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/alcaser.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/busquets.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/cutinho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/dembele.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/denis-suarez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/gomez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/iniesta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/jordialba.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/lucas.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/messi.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/mina.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/paulinho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/pique.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/rakitic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/reberto.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/semedo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/suarez.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/ter-stegen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/umtiti.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barca/vidal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/barcateam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/betis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/getafe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/madridteam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/mastella.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/realbetis.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/sevillateam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/valenciateam.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/static/assets/img/villareal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/Flaskvenv/pip-selfcheck.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/Athletic.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/Athletic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/Valencia.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/Valencia.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/atletico.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/atletico.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/barca.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/barca.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/betis.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/betis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/checkfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/checkfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/compare.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/compare.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/prediction.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/prediction.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/realmadrid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/realmadrid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/sevilla.html" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/templates/sevilla.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Flask_Virtual_enviroment/myapp/test.py" afterDir="false" />
+    <list default="true" id="e885862e-eef8-4679-9808-db2e24a7127a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -309,6 +131,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -454,16 +277,22 @@
       <option name="project" value="LOCAL" />
       <updated>1539193944447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Jamal  2.0">
+      <created>1541514940850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541514940850</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.22693998" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3286385" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3286385" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286385" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.11737089" />
       <window_info anchor="bottom" id="Python Console" order="7" />
@@ -498,7 +327,8 @@
     <MESSAGE value="Some changes in pages including Tweetwr widget" />
     <MESSAGE value="Tweets" />
     <MESSAGE value="Update contains Club.html ... changes in test.py, graph.py and compare.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update contains Club.html ... changes in test.py, graph.py and compare.html" />
+    <MESSAGE value="Jamal  2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Jamal  2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
